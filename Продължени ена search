@@ -1,0 +1,36 @@
+<html lang="en">
+  <body>
+    <div class="createSection">
+      <form method="post" class="createForm">
+        <ul>
+          <li>
+            <label for="title">Title:</label>
+            <input type="text" id="search" class="inputFields" placeholder="Enter movie title...">
+          </li>
+          <li class="center-btn">
+            <button id="search-btn">Search</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <section class="details_page">
+      <div class="main_card">
+        <div class="card_left">
+          <div class="card_details">
+            <h1 id="title"></h1>
+            <h3>Original language: <span id="original_language"></span></h3>
+            <div class="card_animal">
+              <p class="card-keyword">Votes: <span id="vote_average"></span></p>
+              <p class="card-keyword">Date: <span id="release_date"></span></p>
+            </div>
+            <p id="overview"></p>
+          </div>
+        </div>
+        <div class="card_right">
+          <img id="poster" src="" alt="Movie poster">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
